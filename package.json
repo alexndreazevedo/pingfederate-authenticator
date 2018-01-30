@@ -1,0 +1,35 @@
+{
+  "name": "pingfederate-authenticator",
+  "version": "1.0.0",
+  "description": "PingFederate authentication tool for automated implicit flow",
+  "main": "lib/authenticator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexndreazevedo/pingfederate-authenticator.git"
+  },
+  "keywords": [
+    "PingFederate",
+    "OAuth2",
+    "OpenId",
+    "Implicit Flow",
+    "Authentication",
+    "Automation",
+    "Access",
+    "Token"
+  ],
+  "author": {
+    "name": "Alexandre Azevedo",
+    "url": "https://github.com/alexndreazevedo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexndreazevedo/pingfederate-authenticator/issues"
+  },
+  "homepage": "https://github.com/alexndreazevedo/pingfederate-authenticator#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
