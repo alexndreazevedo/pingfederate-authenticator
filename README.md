@@ -44,4 +44,5 @@ To-do
 
 - [ ] Add support to both HTTP and HTTPS. (Currently only supports HTTPS)
 - [ ] Allow direct importing as a Node module.
+- [ ] Add option to import a configuration file.
 
