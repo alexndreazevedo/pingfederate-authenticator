@@ -1,8 +1,11 @@
 {
   "name": "pingfederate-authenticator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PingFederate authentication tool for automated implicit flow",
-  "main": "lib/index.js",
+  "bin": {
+    "pingfederate-authenticator": "./bin/pingfederate-authenticator.js"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +33,7 @@
   },
   "homepage": "https://github.com/alexndreazevedo/pingfederate-authenticator#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2"
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.13.0"
   }
 }
