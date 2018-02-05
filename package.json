@@ -1,9 +1,9 @@
 {
-  "name": "pingfederate-authenticator",
-  "version": "1.1.0",
+  "name": "pf-authenticator",
+  "version": "1.0.2",
   "description": "PingFederate authentication tool for automated implicit flow",
   "bin": {
-    "pingfederate-authenticator": "./bin/pingfederate-authenticator.js"
+    "authenticator": "./bin/authenticator.js"
   },
   "main": "./lib/index.js",
   "scripts": {
