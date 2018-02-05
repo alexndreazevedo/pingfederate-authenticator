@@ -8,7 +8,7 @@ Installation
 $ npm -g install pf-authenticator
 ```
 
-NOTE: Make sure you have Node.js and Npm installed in your machine (https://nodejs.org/en/download).
+**NOTE:** Make sure you have Node.js and Npm installed in your machine ([https://nodejs.org/en/download](https://nodejs.org/en/download)).
 
 Usage
 -----
