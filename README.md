@@ -42,7 +42,7 @@ $ authenticator -I https://pfinstance.com:5555 -C my_client_app -R https://examp
 To-do
 -----
 
-- [ ] Add support to both HTTP and HTTPS. (Currently only supports HTTPS)
+- [x] Add support to both HTTP and HTTPS. (Currently only supports HTTPS)
 - [ ] Allow direct importing as a Node module.
 - [ ] Add option to import a configuration file.
 
