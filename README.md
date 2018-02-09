@@ -23,12 +23,13 @@ $ authenticator
 
   Options:
 
-    -I, --issuer <uri>     Set the OpenID Issuer URI. Retrieve the OpenID configuration at <issuer>/.well-know/openid-configuration
-    -C, --client <id>      Define the Client ID. It must be a client with activated implicit flow.
-    -R, --redirect <uri>   Define the Redirect URI. It must to be an authorized redirection URI.
-    -U, --username <user>  Specify the username to login
-    -P, --password <pass>  Specify the password to login
-    -h, --help             output usage information
+    -I, --issuer <uri>        Set the OpenID Issuer URI. Retrieve the OpenID configuration at <issuer>/.well-know/openid-configuration
+    -C, --client <id>         Define the Client ID. It must be a client with activated implicit flow.
+    -R, --redirect <uri>      Define the Redirect URI. It must to be an authorized redirection URI.
+    -S, --scope <scope list>  Define the scopes list. Default is "openid profile".
+    -U, --username <user>     Specify the username to login
+    -P, --password <pass>     Specify the password to login
+    -h, --help                output usage information
 ```
 
 Additional information
