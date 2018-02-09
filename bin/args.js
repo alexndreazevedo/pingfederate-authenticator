@@ -8,6 +8,7 @@ module.exports = (args) => {
     .option('-C, --client <id>', 'Define the Client ID. It must be a client with activated implicit flow.')
     .option('-R, --redirect <uri>', 'Define the Redirect URI. It must to be an authorized redirection URI.')
     .option('-S, --scope <scope list>', 'Define the scopes list. Default is "openid profile".')
+    .option('-i, --id_token', 'Retrieve the ID Token instead of Access Token.')
     .option('-U, --username <user>', 'Specify the username to login')
     .option('-P, --password <pass>', 'Specify the password to login')
     .parse(args);

@@ -27,6 +27,7 @@ $ authenticator
     -C, --client <id>         Define the Client ID. It must be a client with activated implicit flow.
     -R, --redirect <uri>      Define the Redirect URI. It must to be an authorized redirection URI.
     -S, --scope <scope list>  Define the scopes list. Default is "openid profile".
+    -i, --id_token            Retrieve the ID Token instead of Access Token.
     -U, --username <user>     Specify the username to login
     -P, --password <pass>     Specify the password to login
     -h, --help                output usage information
